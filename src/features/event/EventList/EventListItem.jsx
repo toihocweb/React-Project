@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Segment,Item, Icon,List,Button} from "semantic-ui-react";
+import { Segment,Item, Icon,List,Button ,Divider} from "semantic-ui-react";
 import EventListAttandee from './EventListAttandee';
 class EventListItem extends Component {
          
@@ -39,6 +39,7 @@ class EventListItem extends Component {
                         <Button  as="a" color="teal" floated="right" content="View"  onClick={onOpenEvent(event)}/>
                     </Segment>
                 </Segment.Group>
+                <Divider />
             </div>
         )
     }
